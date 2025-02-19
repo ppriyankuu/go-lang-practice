@@ -9,28 +9,28 @@
     - Concurrency & State Management : goroutines and channels for managing WebSocket connections and state.
 
 bash```
-chat-server/
-├── cmd/
-│   └── main.go
-├── internal/
-│   ├── config/
-│   │   └── config.go
-│   ├── models/
-│   │   └── message.go
-│   ├── repository/
-│   │   └── message_repository.go
-│   ├── services/
-│   │   └── chat_service.go
-│   └── websocket/
-│       └── websocket.go
-├── pkg/
-│   ├── cache/
-│   │   └── cache.go
-│   ├── db/
-│   │   └── db.go
-│   └── pubsub/
-│       └── pubsub.go
-├── go.mod
-└── go.sum
+    chat-server/
+    ├── cmd/
+    │   └── main.go
+    ├── internal/
+    │   ├── config/
+    │   │   └── config.go
+    │   ├── models/
+    │   │   └── message.go
+    │   ├── repository/
+    │   │   └── message_repository.go
+    │   ├── services/
+    │   │   └── chat_service.go
+    │   └── websocket/
+    │       └── websocket.go
+    ├── pkg/
+    │   ├── cache/
+    │   │   └── cache.go
+    │   ├── db/
+    │   │   └── db.go
+    │   └── pubsub/
+    │       └── pubsub.go
+    ├── go.mod
+    └── go.sum
 ```
      
